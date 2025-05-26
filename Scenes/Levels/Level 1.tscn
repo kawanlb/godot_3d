@@ -1,15 +1,12 @@
-[gd_scene load_steps=14 format=3 uid="uid://b1gqvxb6rypxq"]
+[gd_scene load_steps=11 format=3 uid="uid://b1gqvxb6rypxq"]
 
 [ext_resource type="Script" uid="uid://djtyb8rdysbg3" path="res://Scripts/Levels/level 1.gd" id="1_j8xq7"]
 [ext_resource type="PackedScene" uid="uid://c75s2m6eic1vo" path="res://Scenes/Player/Player.tscn" id="2_xoa1m"]
 [ext_resource type="MeshLibrary" uid="uid://fq6she2myh7e" path="res://Scenes/Levels/Library.tres" id="3_a6omd"]
-[ext_resource type="PackedScene" uid="uid://u6rsr1posklm" path="res://Scenes/Shop/mage_npc.tscn" id="7_ameaq"]
-[ext_resource type="PackedScene" uid="uid://dle7ng6ysu2oq" path="res://Scenes/complete_level.tscn" id="10_jptnb"]
 [ext_resource type="PackedScene" uid="uid://kusf7wrf55dw" path="res://Scenes/Objects/Torch.tscn" id="11_i8kn3"]
 [ext_resource type="PackedScene" uid="uid://cm4qspbr3blpd" path="res://Scenes/Player/GUI/game_over_overlay.tscn" id="13_odunc"]
 [ext_resource type="PackedScene" uid="uid://dxnakdkshmjf3" path="res://Scenes/Player/GUI/GUI.tscn" id="14_boby3"]
 [ext_resource type="PackedScene" uid="uid://bhmnasfjlgih2" path="res://Scenes/Objects/Item_object.tscn" id="15_6pfin"]
-[ext_resource type="PackedScene" uid="uid://k5iodkm5vt48" path="res://Scenes/Objects/Portals/Portal 4.tscn" id="15_8qnfm"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_8iccp"]
 
@@ -82,18 +79,10 @@ transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -13.24
 [node name="Fire8" parent="Objects" instance=ExtResource("11_i8kn3")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -3.2494, 3.40291, -31.13)
 
-[node name="Mage NPC" parent="Objects" instance=ExtResource("7_ameaq")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.148863, 1.02246, -37.4433)
-
 [node name="Monsters" type="Node3D" parent="."]
 
 [node name="Items" type="Node3D" parent="."]
 
 [node name="item_object" parent="Items" instance=ExtResource("15_6pfin")]
-
-[node name="Portal" parent="." instance=ExtResource("15_8qnfm")]
-transform = Transform3D(0.0424337, 0, -0.999099, 0, 1, 0, 0.999099, 0, 0.0424337, -46.8415, 7.12408, 8.27683)
-
-[node name="CompleteLevel" parent="Portal" instance=ExtResource("10_jptnb")]
 
 [node name="Projectiles" type="Node" parent="."]
