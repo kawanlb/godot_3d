@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://kaawngevo8c1"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1yi2p"]
+albedo_color = Color(1, 0.623529, 0.419608, 0.921569)
+metallic = 1.0
+normal_enabled = true
+normal_scale = 6.75
+
+[sub_resource type="BoxMesh" id="BoxMesh_aiv8h"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1yi2p"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.78614, 0)
+material_override = SubResource("StandardMaterial3D_1yi2p")
+mesh = SubResource("BoxMesh_aiv8h")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D"]
+shape = SubResource("BoxShape3D_1yi2p")
+
+[node name="SpotLight3D" type="SpotLight3D" parent="."]
+transform = Transform3D(0.863421, -0.504325, 0.0126871, 0.0820166, 0.115512, -0.989914, 0.497772, 0.855753, 0.141099, 0, 0.711448, 0)
+light_energy = 4.717
