@@ -22,7 +22,7 @@
 |---------------------------|---------------|
 | Mover personagem          | W, A, S, D     |
 | Mover câmera              | Mouse          |
-| Interagir com objetos     | E              |
+| Interagir com objetos     | (CHEGAR PERTO) |
 | Abrir inventário          | ESC         |
 ---
 
