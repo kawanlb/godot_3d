@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://djtyb8rdysbg3" path="res://Scripts/Levels/level 1.gd" id="1_j8xq7"]
 [ext_resource type="PackedScene" uid="uid://c75s2m6eic1vo" path="res://Scenes/Player/Player.tscn" id="2_xoa1m"]
 [ext_resource type="MeshLibrary" uid="uid://fq6she2myh7e" path="res://Scenes/Levels/Library.tres" id="3_a6omd"]
-[ext_resource type="PackedScene" uid="uid://kaawngevo8c1" path="res://Scenes/Objects/metálico.tscn" id="7_gk1sg"]
+[ext_resource type="PackedScene" uid="uid://kaawngevo8c1" path="res://Scenes/Objects/metalico.tscn" id="7_gk1sg"]
 [ext_resource type="PackedScene" uid="uid://c3yloaeu4wwpa" path="res://Scenes/Objects/rugosidade.tscn" id="8_st7rb"]
 [ext_resource type="PackedScene" uid="uid://kusf7wrf55dw" path="res://Scenes/Objects/Torch.tscn" id="11_i8kn3"]
 [ext_resource type="PackedScene" uid="uid://cm4qspbr3blpd" path="res://Scenes/Player/GUI/game_over_overlay.tscn" id="13_odunc"]
