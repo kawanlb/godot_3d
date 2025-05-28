@@ -61,7 +61,10 @@ Scripts/
 
 | Tipo        | Fonte                                       |
 |-------------|---------------------------------------------|
-| Assets 3D   | [Kenney Assets](https://kenney.nl/assets)   |
+| Assets 3D   |https://kaylousberg.itch.io/kaykit-adventurers 
+  --          |https://kaylousberg.itch.io/kaykit-dungeon-remastered
+  --          |https://kaylousberg.itch.io/kaykit-skeletons
+            
 
 ---
 
